@@ -67,7 +67,7 @@ loveStatus.setVoiceStatus(channelId, statusMessage)
 ```
 ## 4. Fallback Status
 
-- If no status message is provided, the package will use a default status ("In Love Status").
+- If no status message is provided, the package will use a default status ("In Love").
 ```javascript
 loveStatus.setVoiceStatus(channelId)
     .then(() => console.log('Default status applied'))
@@ -106,7 +106,7 @@ client.login('YOUR_DISCORD_BOT_TOKEN');
 
 - channelId: The ID of the voice channel whose status you want to change.
 
-- status (optional): The custom status message you want to set for the voice channel. If not provided, the default status ("In Love Status") will be used.
+- status (optional): The custom status message you want to set for the voice channel. If not provided, the default status ("In Love") will be used.
 
 
 - Returns a promise that resolves when the status is successfully updated, or throws an error if something goes wrong.
