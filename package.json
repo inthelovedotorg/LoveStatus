@@ -1,0 +1,35 @@
+{
+    "name": "lovestatus",
+    "version": "1.0.0",
+    "description": "LoveStatus is a lightweight library for managing custom statuses in Discord Voice Channels. It helps you set the vibe and change voice statuses with ease.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inthelovedotorg/lovestatus.git"
+    },
+    "author": "inthelovedotorg",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/inthelovedotorg/lovestatus/issues"
+    },
+    "homepage": "https://github.com/inthelovedotorg/lovestatus#readme",
+    "dependencies": {
+        "axios": "^1.7.5",
+        "discord.js": "^14.15.3",
+        "jest": "^29.7.0"
+    },
+    "keywords": [
+        "discord",
+        "status",
+        "voice",
+        "channel",
+        "lovestatus",
+        "voice channel",
+        "discord.js",
+        "discordjs"
+    ],
+    "devDependencies": {}
+}
