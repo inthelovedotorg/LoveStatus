@@ -102,7 +102,7 @@ client.login('YOUR_DISCORD_BOT_TOKEN');
 
 # API Reference
 
-# setVoiceStatus(channelId, status)
+- setVoiceStatus(channelId, status)
 
 - channelId: The ID of the voice channel whose status you want to change.
 
