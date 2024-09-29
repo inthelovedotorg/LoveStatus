@@ -100,7 +100,7 @@ client.once('ready', async () => {
 client.login('YOUR_DISCORD_BOT_TOKEN');
 ```
 
-# API Reference
+## API Reference
 
 - setVoiceStatus(channelId, status)
 
@@ -111,14 +111,14 @@ client.login('YOUR_DISCORD_BOT_TOKEN');
 
 - Returns a promise that resolves when the status is successfully updated, or throws an error if something goes wrong.
 
-# License
+## License
 
 - This package is licensed under the MIT License. See the LICENSE file for more information.
 
-# Contributing
+## Contributing
 
 - Feel free to contribute to the development of lovestatus. Fork the repository, create a new branch, and submit a pull request with your improvements.
 
-# Issues
+## Issues
 
 - If you encounter any issues or bugs, please open a new issue on the GitHub repository.
