@@ -17,7 +17,7 @@ class LoveStatus {
         try {
             const response = await axios.put(
                 `https://discord.com/api/v10/channels/${channelId}/voice-status`,
-                { status: status.length > 0 ? status : 'In Love Status' },
+                { status: status.length > 0 ? status : 'In Love' },
                 { headers: { Authorization: `Bot ${this.botClient.token}` } }
             );
 
